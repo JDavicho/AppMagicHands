@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800638437524",
+    "project_id": "discapacidad-auditiva-cb1c5",
+    "storage_bucket": "discapacidad-auditiva-cb1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800638437524:android:a93a0b7ff2c02686b3cc81",
+        "android_client_info": {
+          "package_name": "com.example.discapacidadauditiva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800638437524-6idg63k5d0ni5eg3l5u06e6qm5p69b1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG9ZXow4PR5hWnY7-O55943MdZh0N1rWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800638437524-6idg63k5d0ni5eg3l5u06e6qm5p69b1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MagicHands</string>
+    <string name="app_Texto">Ingresa Palabra</string>
+    <string name="app_Nombre">Ingresa Nombre Completo</string>
+    <string name="app_Edad">Ingresa DD/MM/AAAA</string>
+    <string name="app_Telefono">Ingresa Numero de Telefono</string>
+    <string name="app_Discapacidad">Igresa Si, Si Tienes Discapacidad Auditiva</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

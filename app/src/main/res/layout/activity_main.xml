@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/TextAppearance.Design.CollapsingToolbar.Expanded"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Texto">
+
+
+    <ImageView
+        android:id="@+id/adel"
+        android:layout_width="565dp"
+        android:layout_height="862dp"
+        android:layout_marginBottom="62dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fondo2" />
+
+    <Button
+        android:id="@+id/play"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        app:cornerRadius="20dp"
+        app:icon="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542"
+        app:strokeColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="404dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/chat"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="135dp"
+            android:layout_height="32dp"
+            android:drawableBottom="@drawable/cam"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="132dp"
+            android:layout_height="30dp"
+            android:drawableBottom="@drawable/user"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/paused"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        app:cornerRadius="20dp"
+        app:icon="@android:drawable/ic_media_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542"
+        app:strokeColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:autoText="false"
+        android:background="@drawable/stylo_borde_edittext"
+        android:ems="10"
+        android:freezesText="false"
+        android:hint="@string/app_Texto"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Button
+        android:id="@+id/tradu"
+        android:layout_width="58dp"
+        android:layout_height="56dp"
+        android:background="@drawable/style_borde_buttontradu"
+        app:icon="@android:drawable/ic_menu_send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="467dp"
+        android:layout_height="212dp"
+        android:src="@drawable/progress3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <Button
+        android:id="@+id/audi"
+        android:layout_width="65dp"
+        android:layout_height="44dp"
+        android:background="@drawable/micro_whatsapp_1024x683"
+        android:drawableBottom="@drawable/micro_whatsapp_1024x683"
+        android:foreground="@drawable/micro_whatsapp_1024x683"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
